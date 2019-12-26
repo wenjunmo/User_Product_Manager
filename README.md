@@ -2,7 +2,10 @@
 User product manager include Product methodology
 培养产品经理
 
-Axure RP原型设计能力
+Axure RP原型设计能力(掌握程度)
+  - 参考书籍
+  1. Axure RP8 入门到精通 小楼一夜听春雨著
+  2. 绝密原型档案 Gara著
 
 
 辅助工具使用能力
@@ -10,6 +13,9 @@ Axure RP原型设计能力
   - Visio 业务流程图泳道图等
   - Project 项目计划甘特图
   - Office 三大件
+  
+  - 参考书籍
+  1. 小叶讲
 
 数据分析运营能力
   - Python-Pandas
@@ -18,6 +24,10 @@ Axure RP原型设计能力
   - Tableau
   - 增长策略
   - 活动策划
+  - 教科书
+  1. 利用Python进行数据分析
+  2. SPSS
+  3. 菜鸟学数据分析4本
   
 三大需求文档书写
   - 市场需求文档MRD
@@ -37,6 +47,10 @@ Axure RP原型设计能力
 用户体验能力
   - 用户心理学
   - 社会研究方法
+  - 教科书
+  1. 用户体验要素
+  2，幕后产品
+  
 
 交互设计能力
   - Android ios web 产品设计规范
@@ -74,4 +88,4 @@ Axure RP原型设计能力
   - 教育/电商/B2B/房地产/汽车/保险
 
 
-![阿里巴巴产品经理技能树](https://images.gitee.com/uploads/images/2019/1020/212934_153cd9bf_1831543.jpeg "阿里巴巴产品经理技能树.jpg")
+
