@@ -2,10 +2,7 @@
 User product manager include Product methodology
 培养产品经理
 
-Axure RP原型设计能力(掌握程度)
-  - 参考书籍
-  1. Axure RP8 入门到精通 小楼一夜听春雨著
-  2. 绝密原型档案 Gara著
+Axure RP原型设计能力(掌握程度):Axure RP8 入门到精通 小楼一夜听春雨著+ 绝密原型档案 Gara著
 
 
 辅助工具使用能力
@@ -18,15 +15,17 @@ Axure RP原型设计能力(掌握程度)
   1. 小叶讲
 
 数据分析运营能力
-  - Python-Pandas
-  - Spss
+  - Python-Pandas ————> Python数据分析实战(杜春晓译)+利用Python进行数据分析(徐敬一译)+head first python(第二版中文版)
+  - Python-Plotly ————> Python 数据分析基于Plotly的动态可视化绘图(孙洋洋著)
+  - Spss————> 客户问卷调查与统计分析：使用Excel+SPSS+SAS(清华)+问卷设计手册(重大)+调查研究实操指导(重大)+社会研究方法(人大第五版风笑天)
   - SQL查询
-  - Tableau
+  - Tableau ————> Tableau数据可视化从入门到精通(清华)+最简单的图形与最复杂的信息+Tableau商业分析(美智讯著)
+  - 爬虫————>Python3爬虫数据清洗与可视化实践(零一著)
   - 增长策略
   - 活动策划
   - 教科书
-  1. 利用Python进行数据分析
-  2. SPSS
+  1. 
+  2. SPSS 
   3. 菜鸟学数据分析4本
   
 三大需求文档书写
@@ -45,10 +44,10 @@ Axure RP原型设计能力(掌握程度)
       - 需求池+功能说明文档
       
 用户体验能力
-  - 用户心理学
+  - 用户心理学 ————> 用户体验要素(范晓燕译)
   - 社会研究方法
   - 教科书
-  1. 用户体验要素
+  1. 
   2，幕后产品
   
 
@@ -59,8 +58,8 @@ Axure RP原型设计能力(掌握程度)
 技术开发能力
   - API 调用
   - Python-Flask
-  - Https
-  - html5+css3
+  - Https ————> 图解HTTP(上野宣 著) + 网络是怎样连接的(户根勤 著)
+  - html5+css3 ————> 响应式Web设计+WSG+Don't make me think 
   
 测试能力
   - 可用性测试
@@ -87,5 +86,10 @@ Axure RP原型设计能力(掌握程度)
 术业有专攻
   - 教育/电商/B2B/房地产/汽车/保险
 
+
+产品书籍：
+  - 把时间当做朋友
+  - 梁宁产品30讲增长30讲
+  
 
 
