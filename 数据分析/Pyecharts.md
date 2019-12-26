@@ -1,6 +1,7 @@
 <div align = "center">
 <h1>:whale2: 交互式数据可视化 :whale2:</h1>
-<p>[pyechart 官方文档](https://pyecharts.org/#/) + [plot.ly 官方文档](https://plot.ly/python/getting-started/#initialization-for-online-plotting)</p>
+<p>[pyechart 官方文档](https://pyecharts.org/#/)</p>
+<p>[plot.ly 官方文档](https://plot.ly/python/getting-started/#initialization-for-online-plotting)</p>
 </div>
 
 ### week01 
@@ -9,42 +10,23 @@
 - [https://rawgraphs.io/](https://rawgraphs.io/) ==> Start [https://app.rawgraphs.io/](https://app.rawgraphs.io/) ==> try your samples - - example: 电影数据 - 冲积图 - X轴流派和电影 + y轴生产预算（百万）
 
 安装 Pyecharts 踩到的坑
-[pip install pyecharts-少 future 包- Read Time out-缺少 pillow 包，安装好后使用 IDLE 导入 Pyecharts 包或者直接在 python 安装目录下的 Lib\site-packages 文件夹里面查看是否存在 pyecharts 文件夹，这个应该是v0.5的版本，现在已更新到v1.0版本，两者是互不兼容需要查看官方文档来进行安装](https://zhuanlan.zhihu.com/p/28329657)
-[import pyecharts 导入报错问题](https://www.codeleading.com/article/67112288373/)
-[from example.commons import Faker 报错 issue 有讲是版本前后更新的问题，但是不够具体必须去查官方文档](https://github.com/pyecharts/pyecharts/issues/1393)
-[pyechart GitHub README.md 写到 v0.5.x 和 V1 间不兼容,新版本系列将从 v1.0.0 开始，仅支持py3.6，文档位于 pyecharts.org，pip 安装命令如下:安装 v1 以上版本 $ pip install pyecharts -U ， -U 是和没有-U区别开来，也就是0.5与1.0版本的区别](https://github.com/pyecharts/pyecharts)
-[pyechart 与jupyter 交互式，图表显示空白的解决方案](https://blog.csdn.net/zqs305082800/article/details/84581299)
+1. [pip install pyecharts-少 future 包- Read Time out-缺少 pillow 包，安装好后使用 IDLE 导入 Pyecharts 包或者直接在 python 安装目录下的 Lib\site-packages 文件夹里面查看是否存在 pyecharts 文件夹，这个应该是v0.5的版本，现在已更新到v1.0版本，两者是互不兼容需要查看官方文档来进行安装](https://zhuanlan.zhihu.com/p/28329657)
+2. [import pyecharts 导入报错问题](https://www.codeleading.com/article/67112288373/)
+3. [from example.commons import Faker 报错 issue 有讲是版本前后更新的问题，但是不够具体必须去查官方文档](https://github.com/pyecharts/pyecharts/issues/1393)
+4. [pyechart GitHub README.md 写到 v0.5.x 和 V1 间不兼容,新版本系列将从 v1.0.0 开始，仅支持py3.6，文档位于 pyecharts.org，pip 安装命令如下:安装 v1 以上版本 $ pip install pyecharts -U ， -U 是和没有-U区别开来，也就是0.5与1.0版本的区别](https://github.com/pyecharts/pyecharts)
+5. [pyechart 与jupyter 交互式，图表显示空白的解决方案](https://blog.csdn.net/zqs305082800/article/details/84581299)
+6. [Anaconda找包，安装包时，遇到PackageNotFoundError： ''Package missing in current channels"](https://blog.csdn.net/ksws0292756/article/details/79192268)
+7. [ImportError: No module named 'pyecharts' 使用pypi包链接路径安装](https://blog.csdn.net/skj1995/article/details/81187954)
+8. [python -m pip install --upgrade pip 升级后再来pypi进行安装]-Segmentfault](https://segmentfault.com/a/1190000018129346)
+9. [官网pyecharts 0.1.9.4 pip install pyecharts==0.1.9.4Copy PIP instructions](https://pypi.org/project/pyecharts/0.1.9.4/#files)
+10. [pip install pyecharts-0.1.9.4-py2.py3-none-any.whl](https://blog.csdn.net/f823154/article/details/80671072)
 
-[Anaconda找包，安装包时，遇到PackageNotFoundError： ''Package missing in current channels"](https://blog.csdn.net/ksws0292756/article/details/79192268)
+总结：
+1. 出现这么多问题两种解决办法：一是看官方文档来对pyecharts的官方文档进行下载版本修改，而是在pypi网站上直接下载包到本地再解压或者直接cmd解压包所在的网址
+2. 关于 anoconda jupyternotebook 生成的 Html 文件图片全部丢失原因是在默认生成的Html文件是储存在C盘的下载里面，下载好后必须要将文件移动出去，否则会一直重复下载相同文件没有办法来显示图片，导致只有代码没有生成图的奇怪现象
+3. pyecharts在jupyter上无法使用，jupyter notebook总是显示没有模型pyecharts，问题是已经安装了包，而且在pycharm里可以运行，应该是版本问题使用的pip命令下载包并没有 -U 来下载最新的 v1.0
 
-[Anaconda下安装pyecharts步骤及常见错误](https://blog.csdn.net/skj1995/article/details/81187954)
-
-[[python]之菜鸟安装[pyecharts]进入[jupyter notebook]-Segmentfault](https://segmentfault.com/a/1190000018129346)
-
-[Anaconda安装pyecharts](https://blog.csdn.net/f823154/article/details/80671072)
-
-[官网pyecharts 0.1.9.4 pip install pyecharts==0.1.9.4Copy PIP instructions](https://pypi.org/project/pyecharts/0.1.9.4/#files)
-
-
-
-
-关于 anoconda jupyternotebook 生成的 Html 文件图片全部丢失原因是在默认生成的Html文件是储存在C盘的下载里面，下载好后必须要将文件移动出去，否则会一直重复下载相同文件没有办法来显示图片，导致只有代码没有生成图的奇怪现象
-
-pyecharts在jupyter上无法使用，jupyter notebook总是显示没有模型pyecharts，问题是已经安装了包，而且在pycharm里可以运行，应该是版本问题使用的pip命令下载包并没有 -U 来下载最新的 v1.0
-
-
-
-class类
-type类
-两个不一样
-
-召唤魔法，掌握程度不一样，web app 对象，对象值的差别，同样一类东西召唤出来就是不一样的
-import pandas 
-召唤数据库里面最常用的数据对象就是pd.DataFrame
-常用方式就是df=
-每一次召唤一个数据框的对象做一个副本来做一个数据框
-pd.DataFrame 后面产生一个数据框和索引，单位
-index
+>工厂函数：class类，type类，两个不一样，召唤魔法，掌握程度不一样，web app 对象，对象值的差别，同样一类东西召唤出来就是不一样的。import pandas 召唤数据库里面最常用的数据对象就是pd.DataFrame，常用方式就是df=，每一次召唤一个数据框的对象做一个副本来做一个数据框，pd.DataFrame 后面产生一个数据框和索引，单位index
 
 csv档放在目录下面就是来进行
 read.table/csv
