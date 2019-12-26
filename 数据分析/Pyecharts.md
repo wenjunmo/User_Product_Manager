@@ -1,70 +1,19 @@
-### 前言1
+<div align = "center">
+<h1>:whale2: 交互式数据可视化 :whale2:</h1>
+<p>[pyechart 官方文档](https://pyecharts.org/#/) + [plot.ly 官方文档](https://plot.ly/python/getting-started/#initialization-for-online-plotting)</p>
+</div>
 
-- [pyechart官方文档](https://pyecharts.org/#/)
-- [plot.ly官方文档](https://plot.ly/python/getting-started/#initialization-for-online-plotting)
+### week01 
 
-- 在开始之前先进入 [rawgraphs](https://rawgraphs.io/) 来体验一下可视化图表的乐趣，进入页面来点击 Start 后进入 [https://app.rawgraphs.io/](https://app.rawgraphs.io/) 来使用 try your samples 选择例子来自己尝试使用不同的图表搭配进行不一样的可视化展示，尝试一下电影数据-冲积图-X轴流派和电影+y轴生产预算（百万）
+预热:
+- [https://rawgraphs.io/](https://rawgraphs.io/) ==> Start [https://app.rawgraphs.io/](https://app.rawgraphs.io/) ==> try your samples - - example: 电影数据 - 冲积图 - X轴流派和电影 + y轴生产预算（百万）
 
-- 简单的plot.ly的注册 
-1. [在 plot.ly 注册后才能够来进行查看 api key](https://plot.ly/Auth/login/?next=%2Fsettings%2Fapi%2F#/)，如果是直接在官网注册的话是不能看到api key。我第一次注册成了社区版所以是进入了社区论坛，不能够来进行查看 api key [community.plot.ly](https://community.plot.ly/)的链接是社区版本的。所以不是注册社区论坛而是注册正式版本[图标工作室云](https://plot.ly/Auth/login/?action=signup#/)才对。
-2. 注册完成后进入正式的控制台，在平面工具可以看到了api key 的 [界面](https://plot.ly/organize/home)
-3. 找到 setting ，看到 [api key](https://plot.ly/organize/home)，这个是没有看到API 密码，是隐藏的，不过在进行了邮箱验证后还是没有办法看到我们的密码
-4. 但是可以进行在线编辑这个 [文档](https://plot.ly/create/#/)
-5. 查看不了 api key 的密码那就是被隐藏了需要进行初始化设置才是可以的，这篇文章教怎么来进行隐藏密码的显示 [数据可视化工具Plotly使用心得](https://blog.csdn.net/souvenir001/article/details/53217553)，讲我是需要进行在 matlab 里面进行设置
-
-- 安装
-[这个是我的api页面](https://plot.ly/settings/api)
-
-### 在 anoconda prompt 来进行下载安装
-'''
-conda install -c plotly plotly=4.1.0
-'''
-
-但是在线初始化编辑出现错误，暂时还是没有办法区分到底是在线画图还是在我们自己的conda上面来进行画图（存疑）
-
-- 需要复习的知识点
-1. chrome inspecte复习-[谷歌开发者调试工具 Tools for Web Developers]
-2. html css js svg 复习
-3. 数字转型+数字治理+平台设计+核心交互：参与者+价值单元+过滤器+HCI-人机交互+GDPR+power BI 进行梳理
-
-[https://www.teamviewer.com/tw/download/windows/](https://www.teamviewer.com/tw/download/windows/)
-
-[https://www.tableau.com/zh-cn](https://www.tableau.com/zh-cn)
-去学生界面申请会好很多，直接谷歌搜索可以搜索到学生界面，并且注册个人信息和上传相关学生的凭证后就是可以免费使用14天，并且给下载包
-[https://www.tableau.com/academic/students](https://www.tableau.com/academic/students)学生版
-
-[https://www.sublimetext.com/](https://www.sublimetext.com/)
-学一下中文版本和sftp
-
-[贵阳大数据中心:贵阳大数据云计算这么火，为什么搜不到软件研发的招聘信息？](https://www.zhihu.com/question/35134770)
-
-
-
-anconda下载linux再来拖进去的服务器里面， 右键链接wget 放进去链接就是可以自动下载的
-
-
-
-
-[安装Pyecharts遇到的一些事](https://zhuanlan.zhihu.com/p/28329657)
+安装 Pyecharts 踩到的坑
+[pip install pyecharts-少 future 包- Read Time out-缺少 pillow 包，安装好后使用 IDLE 导入 Pyecharts 包或者直接在 python 安装目录下的 Lib\site-packages 文件夹里面查看是否存在 pyecharts 文件夹，这个应该是v0.5的版本，现在已更新到v1.0版本，两者是互不兼容需要查看官方文档来进行安装](https://zhuanlan.zhihu.com/p/28329657)
+[import pyecharts 导入报错问题](https://www.codeleading.com/article/67112288373/)
+[from example.commons import Faker 报错 issue 有讲是版本前后更新的问题，但是不够具体必须去查官方文档](https://github.com/pyecharts/pyecharts/issues/1393)
+[pyechart GitHub README.md 写到 v0.5.x 和 V1 间不兼容,新版本系列将从 v1.0.0 开始，仅支持py3.6，文档位于 pyecharts.org，pip 安装命令如下:安装 v1 以上版本 $ pip install pyecharts -U ， -U 是和没有-U区别开来，也就是0.5与1.0版本的区别](https://github.com/pyecharts/pyecharts)
 [pyechart 与jupyter 交互式，图表显示空白的解决方案](https://blog.csdn.net/zqs305082800/article/details/84581299)
-
-
-[pyecharts在jupyter上无法使用！？
-jupyter notebook总是显示没有模型pyecharts，问题是已经安装了包，而且在pycharm里可以运行，这是怎么回事？]()
-
-
-[https://pyecharts.org/#/](https://pyecharts.org/#/)
-
-
-在cmd和conda promt里面都是使用pip install pyecharts conda install pyecharts
-但是都是报错，都是说没有这个模块或者是提醒找不到
-在网站上找了很多的教程都没有
-最后是检查模块拼写错了漏了一个s
-模块没有写全
-
-但是下面的办法有解决但是我不知道我是哪一种方法引起的错误
-
-[官方文档github](https://pyecharts.org/#/zh-cn/quickstart)
 
 [Anaconda找包，安装包时，遇到PackageNotFoundError： ''Package missing in current channels"](https://blog.csdn.net/ksws0292756/article/details/79192268)
 
@@ -76,6 +25,12 @@ jupyter notebook总是显示没有模型pyecharts，问题是已经安装了包�
 
 [官网pyecharts 0.1.9.4 pip install pyecharts==0.1.9.4Copy PIP instructions](https://pypi.org/project/pyecharts/0.1.9.4/#files)
 
+
+
+
+关于 anoconda jupyternotebook 生成的 Html 文件图片全部丢失原因是在默认生成的Html文件是储存在C盘的下载里面，下载好后必须要将文件移动出去，否则会一直重复下载相同文件没有办法来显示图片，导致只有代码没有生成图的奇怪现象
+
+pyecharts在jupyter上无法使用，jupyter notebook总是显示没有模型pyecharts，问题是已经安装了包，而且在pycharm里可以运行，应该是版本问题使用的pip命令下载包并没有 -U 来下载最新的 v1.0
 
 
 
