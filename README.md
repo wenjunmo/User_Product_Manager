@@ -72,3 +72,6 @@ Axure RP原型设计能力
 
 术业有专攻
   - 教育/电商/B2B/房地产/汽车/保险
+
+
+![阿里巴巴产品经理技能树](https://images.gitee.com/uploads/images/2019/1020/212934_153cd9bf_1831543.jpeg "阿里巴巴产品经理技能树.jpg")
