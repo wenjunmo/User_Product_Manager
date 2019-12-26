@@ -1,4 +1,42 @@
 
+
+```
+# plot.ly 注册 
+1. [在 plot.ly 注册后才能够来进行查看 api key](https://plot.ly/Auth/login/?next=%2Fsettings%2Fapi%2F#/)，如果是直接在官网注册的话是不能看到api key。我第一次注册成了社区版所以是进入了社区论坛，不能够来进行查看 api key [community.plot.ly](https://community.plot.ly/)的链接是社区版本的。所以不是注册社区论坛而是注册正式版本[图标工作室云](https://plot.ly/Auth/login/?action=signup#/)才对。
+2. 注册完成后进入正式的控制台，在平面工具可以看到了api key 的 [界面](https://plot.ly/organize/home)
+3. 找到 setting ，看到 [api key](https://plot.ly/organize/home)，这个是没有看到API 密码，是隐藏的，不过在进行了邮箱验证后还是没有办法看到我们的密码
+4. 但是可以进行在线编辑这个 [文档](https://plot.ly/create/#/)
+5. 查看不了 api key 的密码那就是被隐藏了需要进行初始化设置才是可以的，这篇文章教怎么来进行隐藏密码的显示 [数据可视化工具Plotly使用心得](https://blog.csdn.net/souvenir001/article/details/53217553)，讲我是需要进行在 matlab 里面进行设置
+
+- 安装
+[这个是我的api页面](https://plot.ly/settings/api)
+
+### 在 anoconda prompt 来进行下载安装
+'''
+conda install -c plotly plotly=4.1.0
+'''
+
+但是在线初始化编辑出现错误，暂时还是没有办法区分到底是在线画图还是在我们自己的conda上面来进行画图（存疑）
+
+```
+
+
+1. chrome inspecte复习-[谷歌开发者调试工具 Tools for Web Developers]
+3. 数字转型+数字治理+平台设计+核心交互：参与者+价值单元+过滤器+HCI-人机交互+GDPR+power BI 进行梳理
+
+[https://www.teamviewer.com/tw/download/windows/](https://www.teamviewer.com/tw/download/windows/)
+
+[https://www.tableau.com/zh-cn](https://www.tableau.com/zh-cn)
+去学生界面申请会好很多，直接谷歌搜索可以搜索到学生界面，并且注册个人信息和上传相关学生的凭证后就是可以免费使用14天，并且给下载包
+[https://www.tableau.com/academic/students](https://www.tableau.com/academic/students)学生版
+
+[https://www.sublimetext.com/](https://www.sublimetext.com/)
+学一下中文版本和sftp
+
+anconda下载linux再来拖进去的服务器里面， 右键链接wget 放进去链接就是可以自动下载的
+
+
+
 ### 你现在的心法及功夫
 
 Review：网页组成部分
